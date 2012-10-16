@@ -6,8 +6,8 @@ This project is a showcase / playground for the following:
 - Dependency management through [NPM](http://npmjs.org) (client- and server)
 - Sourcemaps-Generation with [closure-compiler](https://developers.google.com/closure/compiler/)
 - Create JS builds using [RequireJS](http://requirejs.org) and [AlmondJS](https://github.com/jrburke/almond)
-- Create JS builds using [closure-compiler's](https://developers.google.com/closure/compiler/) feature
-  to resolve AMD modules.
+- Create JS builds using [closure-compiler's feature to resolve AMD
+  modules](http://www.nonblocking.io/2011/12/experimental-support-for-common-js-and.html).
 - [JS Test Driver](http://code.google.com/p/js-test-driver/) example setup using [Jasmine](http://pivotal.github.com/jasmine/),
   [RequireJS](http://requirejs.org) and the [JS Test Driver Jasmine Adapter](https://github.com/ibolmo/jasmine-jstd-adapter), so
   that it can be used by WebStorm directly.
@@ -18,6 +18,7 @@ This project is a showcase / playground for the following:
 
 - Closure compiler
 - Node and NPM
+- git
 
 ## Getting started
 
