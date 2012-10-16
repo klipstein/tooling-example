@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script src="../node_modules/jasmine-node/lib/jasmine-node/jasmine-2.0.0.rc1.js"></script>
+    <script src="../node_modules/jasmine-node/node_modules/jasmine-reporters/ext/jasmine-html.js"></script>
+    <link rel="stylesheet" type="text/css" href="../node_modules/jasmine-node/node_modules/jasmine-reporters/ext/jasmine.css">
+    <script src="../node_modules/requirejs/require.js"></script>
+    <script>
+      require(['./module1-spec'], function() {
+        var jasmineEnv = jasmine.getEnv();
+        jasmineEnv.updateInterval = 10000;
+        jasmineEnv.addReporter(new jasmine.TrivialReporter());
+        // we have to wait a little bit until all specs got registered
+        setTimeout(function() {
+          jasmineEnv.execute();
+        }, 500);
+      });
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
