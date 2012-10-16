@@ -1,5 +1,5 @@
 require(['../src/module1'], function(mod1) {
-                                   console.log(mod1);
+
   describe('add', function() {
     it('should add two values', function() {
       expect(mod1.add(1,2)).toBe(3);
