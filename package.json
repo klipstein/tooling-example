@@ -1,0 +1,27 @@
+{
+  "author": "Tobias von Klipstein",
+  "name": "tooling-example",
+  "description": "Example tooling project",
+  "version": "0.0.0",
+  "private": true,
+  "homepage": "https://github.com/klipstein/tooling-example",
+  "maintainers": [],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:klipstein/tooling-example.git"
+  },
+  "dependencies": {
+    "requirejs": "~2.0.6"
+  },
+  "devDependencies": {
+    "jasmine-node": "~1.0.26",
+    "grunt-closure-compiler": "~0.0.11",
+    "grunt-jasmine-node": "~0.0.2",
+    "grunt-contrib-copy": "~0.3.1",
+    "grunt-contrib-clean": "~0.3.1"
+  },
+  "main": "./src/app_node.js",
+  "scripts": {
+    "test": "jasmine-node --runWithRequireJs test"
+  }
+}

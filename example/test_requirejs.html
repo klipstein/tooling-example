@@ -1,0 +1,18 @@
+<html>
+<head>
+<script src="../node_modules/requirejs/require.js"></script>
+<script>
+require.config({
+  baseUrl: '../src'
+});
+require(['app_browser'], function() {
+  
+});
+</script>
+</head>
+<body>
+  <h1>Test Source Maps</h1>
+  <p>Just enable Source Maps in Chrome Dev Tools and open the "Sources" Tab.</p>
+  <p><b>Note</b>: You have to run "grunt release" before</p>
+</body>
+</html>
