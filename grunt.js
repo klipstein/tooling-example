@@ -14,6 +14,7 @@ module.exports = function(grunt) {
       requirejs: true,
       forceExit: true
     },
+    watch: {},
     requirejs: {
       baseUrl: 'src',
       almond: true,
@@ -57,5 +58,5 @@ module.exports = function(grunt) {
 
   grunt.registerTask('default', 'lint jasmine_node');
   grunt.registerTask('release', 'clean requirejs closure-compiler copy');
-
+  grunt.registerTask('run-server', 'server watch');
 };
