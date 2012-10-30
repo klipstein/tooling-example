@@ -4,6 +4,9 @@ load:
   - node_modules/requirejs/require.js
   - tooling-example-config.js
 
+serve:
+  - src/*.js
+
 test:
   - test/*.js
 
