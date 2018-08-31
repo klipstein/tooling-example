@@ -8,7 +8,7 @@ This project is a showcase / playground for the following:
 - Create JS builds using [RequireJS](http://requirejs.org) and [AlmondJS](https://github.com/jrburke/almond)
 - Create JS builds using [closure-compiler's feature to resolve AMD
   modules](http://www.nonblocking.io/2011/12/experimental-support-for-common-js-and.html).
-- [JS Test Driver](http://code.google.com/p/js-test-driver/) example setup using [Jasmine](http://pivotal.github.com/jasmine/),
+- [JS Test Driver](http://code.google.com/p/js-test-driver/) example setup using [Jasmine](https://jasmine.github.io/),
   [RequireJS](http://requirejs.org) and the [JS Test Driver Jasmine Adapter](https://github.com/ibolmo/jasmine-jstd-adapter), so
   that it can be used by WebStorm directly.
 - Execution of Jasmine-Tests using [jasmine-node](https://github.com/mhevery/jasmine-node)
